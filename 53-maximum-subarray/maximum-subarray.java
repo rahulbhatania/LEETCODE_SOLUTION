@@ -16,13 +16,7 @@ class Solution {
         }
         Arrays.sort(nums);
         if(maxsum==0){
-            // for(int i=0;i<n;i++){
-            //     sum=nums[i]+sum;
-            //      maxsum=nums[0];
-            //     if(sum>maxsum){
-            //         maxsum=sum;
-            //     }
-            // }\
+            
         return nums[n-1];
         }
         return maxsum;
