@@ -9,7 +9,7 @@ class Solution {
     }
 
     boolean isValid(int nums[] , int[] arr , int s , int e){
-        System.out.println(s+" "+e);
+        // System.out.println(s+" "+e);
         for(int i = s ; i < e ; i++){
             if(arr[i-s] == 0 && nums[i] != nums[i+1]) return false;
             else if(arr[i-s] == 1 && nums[i] >= nums[i+1]) return false;
